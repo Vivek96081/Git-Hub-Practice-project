@@ -7,6 +7,8 @@ import lombok.Data;
 @Entity
 @Table(name = "user")
 public class User {
+
+    //hello everyone I am vivek kumar singh
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
