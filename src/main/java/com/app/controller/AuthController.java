@@ -52,8 +52,4 @@ public class AuthController {
         }
     }
     //http://localhost:8080//api/v1/auth/message
-    @PostMapping("/message")
-    public String demochecking(){
-        return "message";
-    }
 }
